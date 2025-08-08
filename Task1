@@ -1,0 +1,3 @@
+files=open('sample.txt','r')
+print("Reading file content:")
+print(files.read())
