@@ -1,0 +1,10 @@
+files=open('output.txt','w')
+a=files.write('Hello, Python!')
+files.close()
+files=open('output.txt','a')
+b=files.write('\nLearning file handling in Python.')
+files.close()
+files =open('output.txt','r')
+print(files.read())
+files.close()
+
